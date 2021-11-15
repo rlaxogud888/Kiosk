@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.kioskController">
+   <children>
+      <Label alignment="CENTER" layoutX="2.0" layoutY="6.0" prefHeight="53.0" prefWidth="594.0" text="Hello CAFE" textFill="#e10f0f">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtOrder" layoutX="295.0" layoutY="63.0" prefHeight="181.0" prefWidth="277.0" />
+      <Button fx:id="btnOrder" contentDisplay="CENTER" layoutX="322.0" layoutY="253.0" mnemonicParsing="false" onAction="#btnOrderAction" prefHeight="33.0" prefWidth="112.0" text="계산">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblamount" alignment="CENTER_RIGHT" layoutX="378.0" layoutY="298.0" prefHeight="50.0" prefWidth="165.0" text="0" textFill="#0828f8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="549.0" layoutY="316.0" text="원">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="328.0" layoutY="309.0" prefHeight="33.0" prefWidth="51.0" text="총액">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnM1p" alignment="CENTER" layoutX="169.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnM1pAction" prefHeight="33.0" prefWidth="28.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnM2p" alignment="CENTER" layoutX="169.0" layoutY="127.0" mnemonicParsing="false" onAction="#btnM2pAction" prefHeight="34.0" prefWidth="35.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnM3p" alignment="CENTER" contentDisplay="CENTER" layoutX="169.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnM3pAction" prefHeight="34.0" prefWidth="35.0" text="+" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCancel" contentDisplay="CENTER" layoutX="452.0" layoutY="253.0" mnemonicParsing="false" onAction="#btnCancelAction" prefHeight="33.0" prefWidth="112.0" text="취소">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="366.0" prefHeight="41.0" prefWidth="600.0" style="-fx-background-color: #111111;" text="made by Son" textFill="#fcf7f7">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="39.0" layoutY="59.0" prefHeight="50.0" prefWidth="119.0" text="아메리카노&#10;1000원" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="123.0" prefHeight="50.0" prefWidth="119.0" text="카푸치노&#10;2000원" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="42.0" layoutY="192.0" prefHeight="50.0" prefWidth="119.0" text="카페라떼&#10;3000원" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnM1m" alignment="CENTER" contentDisplay="CENTER" layoutX="221.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnM1mAction" prefHeight="43.0" prefWidth="44.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnM2m" alignment="CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="127.0" mnemonicParsing="false" onAction="#btnM2mAction" prefHeight="43.0" prefWidth="44.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnM3m" alignment="CENTER" contentDisplay="CENTER" layoutX="223.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnM3mAction" prefHeight="43.0" prefWidth="44.0" text="-" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Bold" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
