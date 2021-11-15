@@ -1,10 +1,6 @@
 # Kiosk
 키오스크 프로그램
 
-SW : 이클립스툴 + JavaFX + SceneBuilder 
-
-자바기반 응용프로그램을 만들어 볼수 있도록(DB처리 제외) 구현합니다.
-
 # 프로그램 설명
 
 1. SceneBuilder프로그램을 이용하여  fxml파일을 작성합니다.
