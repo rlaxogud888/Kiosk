@@ -1,4 +1,4 @@
-#html 간단하게 만들기
+# html 간단하게 만들기
 \
 ![image](https://user-images.githubusercontent.com/94346298/142766000-f2845c38-c622-4f77-bf91-5f37724ab3b2.png)
 html과 메모장을 이용하여 간단하게 홈페이지를 만들어 봤습니다.
