@@ -13,3 +13,5 @@
 # 실행결과
 
 ![kiosk_Screen](https://user-images.githubusercontent.com/93318468/139366277-d7e9e122-3b3e-4942-b018-c97b836d7276.jpg)
+
+-잘 찾아보시면 이거 말고도 몇개 더 있습니다.
