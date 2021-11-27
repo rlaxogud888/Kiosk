@@ -14,4 +14,6 @@
 
 ![kiosk_Screen](https://user-images.githubusercontent.com/93318468/139366277-d7e9e122-3b3e-4942-b018-c97b836d7276.jpg)
 
-*잘 찾아보시면 이거 말고도 몇개 더 있습니다.
+![image](https://user-images.githubusercontent.com/94346298/143684542-cd5250f0-2bb8-46bd-b0c1-eae83616356b.png)
+
+고양이 같은 것을 눌러주면 제가 만든 것을 다 보실 수 있습니다.
